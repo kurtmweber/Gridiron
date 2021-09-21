@@ -13,5 +13,111 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Language">
+      <UniqueIdentifier>{0e656726-69b2-4656-addb-b41f5951e3b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Language\Phonetics">
+      <UniqueIdentifier>{78498b84-7e63-4057-9bb0-da5fa7ae3e6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Language\Phonetics\Vowels">
+      <UniqueIdentifier>{151abd92-a7ff-4920-9724-88cf1248679a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Language">
+      <UniqueIdentifier>{86a3887c-a1dd-49d1-9f33-f0fb339b818a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Language\Phonetics">
+      <UniqueIdentifier>{908762c2-12cc-4e76-b4e5-6a28f588047c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Language\Phonetics\Vowels">
+      <UniqueIdentifier>{88b492f3-bc50-4d59-8c39-4478747deba2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BackVowel.h">
+      <Filter>Header Files\Language\Phonetics\Vowels</Filter>
+    </ClInclude>
+    <ClInclude Include="CentralVowel.h">
+      <Filter>Header Files\Language\Phonetics\Vowels</Filter>
+    </ClInclude>
+    <ClInclude Include="CloseMidVowel.h">
+      <Filter>Header Files\Language\Phonetics\Vowels</Filter>
+    </ClInclude>
+    <ClInclude Include="CloseVowel.h">
+      <Filter>Header Files\Language\Phonetics\Vowels</Filter>
+    </ClInclude>
+    <ClInclude Include="FrontVowel.h">
+      <Filter>Header Files\Language\Phonetics\Vowels</Filter>
+    </ClInclude>
+    <ClInclude Include="MidVowel.h">
+      <Filter>Header Files\Language\Phonetics\Vowels</Filter>
+    </ClInclude>
+    <ClInclude Include="NearCloseVowel.h">
+      <Filter>Header Files\Language\Phonetics\Vowels</Filter>
+    </ClInclude>
+    <ClInclude Include="NearOpenVowel.h">
+      <Filter>Header Files\Language\Phonetics\Vowels</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenMidVowel.h">
+      <Filter>Header Files\Language\Phonetics\Vowels</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenVowel.h">
+      <Filter>Header Files\Language\Phonetics\Vowels</Filter>
+    </ClInclude>
+    <ClInclude Include="RoundedVowel.h">
+      <Filter>Header Files\Language\Phonetics\Vowels</Filter>
+    </ClInclude>
+    <ClInclude Include="UnroundedVowel.h">
+      <Filter>Header Files\Language\Phonetics\Vowels</Filter>
+    </ClInclude>
+    <ClInclude Include="Vowel.h">
+      <Filter>Header Files\Language\Phonetics\Vowels</Filter>
+    </ClInclude>
+    <ClInclude Include="Phone.h">
+      <Filter>Header Files\Language\Phonetics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BackVowel.cpp">
+      <Filter>Source Files\Language\Phonetics\Vowels</Filter>
+    </ClCompile>
+    <ClCompile Include="CentralVowel.cpp">
+      <Filter>Source Files\Language\Phonetics\Vowels</Filter>
+    </ClCompile>
+    <ClCompile Include="CloseMidVowel.cpp">
+      <Filter>Source Files\Language\Phonetics\Vowels</Filter>
+    </ClCompile>
+    <ClCompile Include="CloseVowel.cpp">
+      <Filter>Source Files\Language\Phonetics\Vowels</Filter>
+    </ClCompile>
+    <ClCompile Include="FrontVowel.cpp">
+      <Filter>Source Files\Language\Phonetics\Vowels</Filter>
+    </ClCompile>
+    <ClCompile Include="MidVowel.cpp">
+      <Filter>Source Files\Language\Phonetics\Vowels</Filter>
+    </ClCompile>
+    <ClCompile Include="NearOpenVowel.cpp">
+      <Filter>Source Files\Language\Phonetics\Vowels</Filter>
+    </ClCompile>
+    <ClCompile Include="NearCloseVowel.cpp">
+      <Filter>Source Files\Language\Phonetics\Vowels</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenMidVowel.cpp">
+      <Filter>Source Files\Language\Phonetics\Vowels</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenVowel.cpp">
+      <Filter>Source Files\Language\Phonetics\Vowels</Filter>
+    </ClCompile>
+    <ClCompile Include="RoundedVowel.cpp">
+      <Filter>Source Files\Language\Phonetics\Vowels</Filter>
+    </ClCompile>
+    <ClCompile Include="UnroundedVowel.cpp">
+      <Filter>Source Files\Language\Phonetics\Vowels</Filter>
+    </ClCompile>
+    <ClCompile Include="Vowel.cpp">
+      <Filter>Source Files\Language\Phonetics\Vowels</Filter>
+    </ClCompile>
+    <ClCompile Include="Phone.cpp">
+      <Filter>Source Files\Language\Phonetics</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
